@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/M20_Portfolio/static/css/main.0d333ffe.css",
+    "main.js": "/M20_Portfolio/static/js/main.e4405bf2.js",
+    "static/media/top.png": "/M20_Portfolio/static/media/top.d9347d40a9fa22c7c2b6.png",
+    "static/media/SEO.png": "/M20_Portfolio/static/media/SEO.6fbad7058f42c1fb76dc.png",
+    "static/media/foodlescreenshot.png": "/M20_Portfolio/static/media/foodlescreenshot.fa02aedd76063b5e9f28.png",
+    "static/media/weather.png": "/M20_Portfolio/static/media/weather.b69870bf21efad18fe93.png",
+    "static/media/ANDUALEM_ABEBAW.pdf": "/M20_Portfolio/static/media/ANDUALEM_ABEBAW.2e60069f9312600112e6.pdf",
+    "static/media/profile.jpeg": "/M20_Portfolio/static/media/profile.098d3321786151b3a418.jpeg",
+    "index.html": "/M20_Portfolio/index.html",
+    "main.0d333ffe.css.map": "/M20_Portfolio/static/css/main.0d333ffe.css.map",
+    "main.e4405bf2.js.map": "/M20_Portfolio/static/js/main.e4405bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d333ffe.css",
+    "static/js/main.e4405bf2.js"
+  ]
+}
