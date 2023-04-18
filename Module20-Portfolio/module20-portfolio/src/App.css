@@ -1,0 +1,265 @@
+/* creates reusable variables for colors and padding */
+:root {
+    --gray: #31343d;
+    --blue: #92ccce;
+    --left: 16px;
+  }
+
+header {
+    display: flex;
+    background-color: var(--gray);
+}
+
+/* Sets background color and margin of body*/
+body {
+    margin: 0px;
+    background-color: #eeeef7;
+}
+
+#profile{
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* Styles the title in the header*/
+.title {
+    display: flex;
+    color: var(--gray);
+    background-color: var(--blue);
+    padding: 5px;
+    padding-left: 10px;
+}
+
+/*styles links to have a bottom border, uses bottom border 
+instead of text decoration to get more detailed thickness and padding */
+.navBar {
+    display: flex;
+    float: right;
+    color:var(--blue);
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 3px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+   
+}
+
+/* Styles header links */
+.navigation a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.bodySection {
+    display: flex;
+    color: var(--gray);
+    width: 90%;
+}
+
+
+.bodySection h2 {
+    text-align: right;
+    padding-left: 80px;
+    border-right: 3px solid var(--gray);
+    padding-right: 6px;
+}
+
+.bodySection p {
+    padding-left: var(--left);
+    
+}
+
+.bodySection #contactMe{
+    padding-left: var(--left);
+}
+
+.headerImage, .titleImage {
+    width: 100%;
+    padding-top: 10px;
+    
+}
+
+.titleImage:hover{
+    filter: blur(5px);
+}
+
+
+/* sets image width and padding within fulWidthimage id*/
+/* #fullWidthImage img{
+    width: 100%;
+    padding-left: var(--left);
+    padding-top: 20px;
+} */
+
+#item {
+    width: 49%;
+}
+
+#header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.pageBody{
+    padding: 20px;
+    text-align: center;
+}
+
+.pageBody > a {
+    color:purple;
+    font-size: larger;
+}
+
+body {
+color: rebeccapurple;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+/* places image text in a box in the bottom right on the image */
+.center {
+    background-color: var(--blue);
+    color: var(--gray);
+    padding: 10px;
+  }
+
+/* styles header2 within bodyTitle class */
+.bodyTitle h2{
+    height: 100%;
+    width: 100px;
+}
+
+#tabs {
+    background-color: purple;
+}
+
+.nav-link{
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+    background-color: purple;
+}
+
+#footer > a {
+    padding: 10px;
+    color: white;
+
+}
+
+.bodyTitle{
+    padding-bottom: 10px;
+}
+
+a{
+    vertical-align: middle;
+}
+
+/* styles link section in contact me section*/
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: var(--left);
+}
+
+/* styles contactme Links inside of links class*/
+.contactMeLink
+{
+    flex: 15%;
+    color:var(--gray);
+    margin: 5px;
+    padding-top: 40px;
+    height:50%;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    background-color: var(--gray);
+}
+
+.item {
+    width: 100%
+}
+ 
+/* sets wrap and padding of images in contactme section*/
+.imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+/* styles divs within image container class*/
+.item {
+    width: 25%;
+}
+
+/* #fullWidth {
+    flex: 100%;
+} */
+
+  /* places image text in a box in the bottom left on the image */
+.bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: var(--blue);
+    color: var(--gray);
+    padding: 10px;
+    text-align: start;
+}
+
+  /* styles/places image primary text  */
+.bottom-left h3 {
+    margin: 0px;
+}
+/* styles/places image secondary text  */
+.bottom-left h5 {
+    margin: 0px;
+    padding: 5px;
+}
+
+
+  /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    .imagesContainer > div {
+        flex: 100%;
+      }
+  }
+
+    /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 500px) {
+    .bodyTitle{
+        display: none;
+    }
+  }
